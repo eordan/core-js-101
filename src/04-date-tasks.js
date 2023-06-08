@@ -122,7 +122,7 @@ function angleBetweenClockHands(date) {
     angle = 360 - angle;
   }
 
-  return (angle * Math.PI) / 180; // Convert to radians
+  return (angle * Math.PI) / 180;
 }
 
 module.exports = {
